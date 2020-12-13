@@ -11,7 +11,6 @@ resource "aws_backup_plan" "plan1" {
 
   rule {
     rule_name         = var.Rule_Name
-    #target_vault_name = var.VAULT_NAME
     schedule          = "cron(0 12 * * ? *)"
   }
 
