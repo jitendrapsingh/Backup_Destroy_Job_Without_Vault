@@ -4,7 +4,7 @@ variable "ACCESS_KEY" {}
 variable "SECRET_KEY" {}
 variable "Plan_Name" {}
 variable "Rule_Name" {}
-#variable "VAULT_NAME" {}
+
 
 provider "aws" {
   region     = var.REGION
